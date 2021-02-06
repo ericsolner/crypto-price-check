@@ -4,11 +4,11 @@ This is a simple React app I built to show real time crypto values. It uses the 
 
 You will need to have Node Version Manager installed
 
-##Run following commands 
+## Run following commands 
 
-###nvm use 12
-###yarn 
-###yarn start
+### `nvm use 12`
+### `yarn` 
+### `yarn start`
 
 
 
