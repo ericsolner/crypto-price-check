@@ -1,3 +1,17 @@
+This is a simple React app I built to show real time crypto values. It uses the Nomics API to grab prices, then it calculates options based on the value. Numbers auto update every five seconds.  
+
+# To run locally 
+
+You will need to have Node Version Manager installed
+
+##Run following commands 
+
+###nvm use 12
+###yarn 
+###yarn start
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
