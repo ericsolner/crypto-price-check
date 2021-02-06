@@ -1,0 +1,64 @@
+body {
+    background: #002352;
+  }
+  
+  .container {
+    background: white;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    .timer {
+        margin-top: 0;
+    }
+
+    .flex {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-evenly;
+        width: 100%;
+
+        .card {
+            width: 45%; 
+            background: lightgray;
+            border-radius: 10px;
+            transition: 1s;
+
+            &:hover {
+                background: black; 
+                transition: 1s;
+                color: white;
+
+                h3 {
+                    font-size: 3vw;
+                }
+            }
+
+            h1 {
+                font-family: FoundersMedium;
+                font-size: 3vw;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+              }
+              
+              h3 {
+                font-family: FoundersMedium;
+                font-size: 2vw;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+              }
+              
+              h4 {
+                font-family: FoundersMedium;
+                font-size: 1.5vw;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+              }
+          }
+    }
+  }
+  
