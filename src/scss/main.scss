@@ -11,6 +11,7 @@ body {
     padding-bottom: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
+    border-radius: 10px;
 
     .timer {
         margin-top: 0;
@@ -22,20 +23,31 @@ body {
         justify-content: space-evenly;
         width: 100%;
 
+        @media(max-width:767px){
+          flex-direction: column;
+        }
+ 
         .card {
             width: 45%; 
             background: lightgray;
             border-radius: 10px;
             transition: 1s;
 
-            &:hover {
-                background: black; 
-                transition: 1s;
-                color: white;
+           @media(max-width:767px) {
+             width: 85%; 
+             margin: 0 auto; 
+             margin-top: 5%;
+           }
 
-                h3 {
-                    font-size: 3vw;
-                }
+            img {
+              width: 15%; 
+              display: block;
+              margin: 0 auto;
+              padding-top: 3%;
+
+              @media(max-width:767px) {
+                width: 25%;
+              }
             }
 
             h1 {
@@ -50,6 +62,10 @@ body {
                 font-size: 2vw;
                 letter-spacing: 3px;
                 text-transform: uppercase;
+
+                @media(max-width:767px) {
+                  font-size: 5vw;
+                }
               }
               
               h4 {
